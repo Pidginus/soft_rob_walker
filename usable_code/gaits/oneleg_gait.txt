@@ -1,0 +1,44 @@
+[forward]
+1RF
+1Rf
+1LF
+1Lf
+2RF
+2Rf
+2LF
+2Lf
+3RF
+3Rf
+3LF
+3Lf
+1Rb 1Lb 2Rb 2Lb 3Rb 3Lb
+
+[backward]
+1RB
+1Rb
+1LB
+1Lb
+2RB
+2Rb
+2LB
+2Lb
+3RB
+3Rb
+3LB
+3Lb
+1Rf 1Lf 2Rf 2Lf 3Rf 3Lf
+
+[left]
+1RF 3RF 2LB
+1Rf 3Rf 2Lb
+1LB 3LB 2RF
+1Lb 3Lb 2Rf
+1Rb 3Rb 2Lf 1Lf 3Lf 2Lb
+
+[right]
+[left]
+1RB 3RB 2LF
+1Rb 3Rb 2Lf
+1LF 3LF 2RB
+1Lf 3Lf 2Rb
+1Rf 3Rf 2Lb 1Lb 3Lb 2Lf
